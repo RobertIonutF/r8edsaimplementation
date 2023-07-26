@@ -1,0 +1,8 @@
+# .gitignore
+
+# Ignore Python virtual environments
+r8edsa/
+
+# Ignore cache directories
+__pycache__/
+

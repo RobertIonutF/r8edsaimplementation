@@ -1,0 +1,7 @@
+# requirements.txt
+
+qiskit==0.26.2
+numpy==1.21.0
+rsa==4.7.2
+hashlib==20081119
+ecdsa==0.16.1
