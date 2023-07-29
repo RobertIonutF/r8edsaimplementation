@@ -50,7 +50,6 @@ class R8EDSA:
         encrypted_message = self.message_conversion_and_encryption(key)
         self.decryption_and_signature(encrypted_message)
         end_time = time.time()
-        print(f"Algoritmul a rulat în {end_time - start_time} secunde.")
 
     def generate_bits(self, message):
         return np.array(list(map(int, list(message))))
