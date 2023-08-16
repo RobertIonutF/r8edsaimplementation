@@ -3,8 +3,8 @@ import tracemalloc
 from r8edsa import R8EDSA
 from concurrent.futures import ThreadPoolExecutor
 
-RSA_KEY_LENGTHS = [512, 1024, 2048, 4096, 8192]
-SAMPLE_SIZES = [10, 50, 100, 250, 500, 1000]
+RSA_KEY_LENGTHS = [512, 1024, 2048]
+SAMPLE_SIZES = [10, 50, 100, 250]
 MESSAGES = ["test", "message", "encrypted message", "this is a test message", "quantum123", "robert", "someSecretKey42"]
 totalTests = len(RSA_KEY_LENGTHS) * len(SAMPLE_SIZES) * len(MESSAGES)
 progress = 0
